@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 3</title>
+       <!-- Required meta tags -->
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+       <!-- Bootstrap CSS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+           crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+           integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+           crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+           integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+           crossorigin="anonymous"></script>
+       <style>
+           .bg-blue {
+               background-color: rgb(112, 218, 213);
+           }
+   
+           .bg-coral {
+               background-color: rgb(230, 176, 75);
+           }
+   
+           .borde {
+               border: 3px solid white;
+           }
+       </style>
+   
+</head>
+
+<body>
+    <div class="container text-center">
+        <div class="row">
+            <div class="header col-12 p-4 bg-success borde">Header</div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-sm-3 bg-primary p-4 borde offset-md-3">1</div>
+            <div class="col-6 col-sm-3 bg-primary p-4 borde">2</div>
+            <div class="col-3 d-none d-md-block"></div>
+            <div class="col-6 col-sm-3 bg-primary p-4 borde">3</div>
+            <div class="col-6 col-sm-3 bg-primary p-4 borde offset-md-6">4</div>
+        </div>
+        <div class="row d-none d-sm-block d-md-none borde">
+            <div class="col-12 bg-blue p-3">Tablet</div>
+        </div>
+        <div class="row">
+            <div class="col-6 col-sm-3 p-4 bg-secondary borde order-md-4">a</div>
+            <div class="col-6 col-sm-3 p-4 bg-secondary borde order-md-3">b</div>
+            <div class="col-6 col-sm-3 p-4 bg-secondary borde order-md-2">c</div>
+            <div class="col-6 col-sm-3 p-4 bg-secondary borde">d</div>
+        </div>
+        <div class="row d-none d-md-block borde">
+            <div class="col-12 bg-blue p-3">Desktop</div>
+        </div>
+        <div class="row d-sm-none">
+            <div class="col-12 bg-blue p-3 borde">Mobile</div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 bg-coral p-4 borde order-md-2">:D</div>
+            <div class="col-md-3 col-sm-6 offset-md-3 bg-coral p-4 borde d-none d-sm-block ">:(</div>
+        </div>
+        <div class="row">
+            <div class="borde col-12 bg-success p-3 d-none d-sm-block">Footer</div>
+        </div>
+    </div>
+</body>
+</html>
