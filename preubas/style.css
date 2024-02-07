@@ -1,0 +1,21 @@
+#vinilo {
+    animation: gira infinite 1s linear;
+}
+
+#vinil {
+    animation: gira infinite 1s linear;
+    animation-play-state: paused;
+}
+
+body {
+    background-color: rgba(29, 22, 10, 0.901);
+}
+
+@keyframes gira {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg;
+    }
+} 
