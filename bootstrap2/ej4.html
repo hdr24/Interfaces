@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4 bootstrap</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
+           integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+           integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+           crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+           integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+           crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+           integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+           crossorigin="anonymous"></script>
+           <style>
+            .bg-blue {
+                background-color: rgb(112, 218, 213);
+            }
+    
+            .bg-coral {
+                background-color: lightsalmon;
+            }
+    
+            .borde {
+                border: 3px solid white;
+            }
+            .header {
+                background-color: lightsalmon;
+                text-align: center;
+                font-style: italic;
+            }
+            .footer {
+                text-align: center;
+                font-style: italic;
+            }
+            .div2{
+                    background-color: red;
+                    font-size: 50px;
+                    padding-bottom: 50px;
+                    text-align: center;
+                }
+                .c1 {
+                    text-align: left;
+                }
+                .c2 {
+                    background-color: aqua;
+                }
+                .c3 {
+                    text-align: right;
+                }
+            @media (min-width:576px) {
+                .header {
+                    background-color: aqua;
+                    text-align: left;;
+                }
+                
+                .c2{
+                    text-align: right;
+                    background-color: red;
+                }
+                .c3 {
+                    background-color:greenyellow ;
+                    text-align: center;
+                }
+            }
+            @media (min-width:768px) {
+                .header {
+                    background-color: greenyellow;
+                }
+                .c3 {
+                    background-color: red;
+                }
+                .div2 {
+                    text-align: center;
+                }
+                .f1 {
+                    text-align: right;
+                }
+                .f2 {
+                    text-align: left;
+                }
+            }
+
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="header col-12 borde">Header</div>
+        </div>
+        <div class="row">
+            <div class="c1 div2 col-md-4 col-sm-6 col-12 borde">1</div>
+            <div class="c2 div2 col-md-4 col-sm-6 col-12 borde">2</div>
+            <div class="c3 div2 col-md-4 col-sm-12 col-12 borde">3</div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-12 bg-warning borde footer f1">Footer 1</div>
+            <div class="col-md-6 col-12 bg-warning borde footer f2">Footer 2</div>
+        </div>
+    </div>
+</body>
+</html>
