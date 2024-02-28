@@ -49,6 +49,54 @@
         </form>
       </div>
     </nav>
+    <h1>En esta pagina tenemos un acordeon desplegable</h1>
+    <h2>En cada uno podras ver informacion sobre los patos</h2>
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            Dato 1
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            <img src="images/pato2.webp" alt="pato blanco" width="50%" height="50%">
+            <p>Hay mas de 120 especies de pato</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+            Dato 2
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+           <img src="images/pato3.avif" alt="pato inflable" width="50%" height="50%">
+           <p>Los patos estan adaptados para poder nadar bien en el agua</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            Dato 3
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <img src="images/pato1.jpg" alt="pato inflable" width="50%" height="50%">
+            <p>Muchas especies de pato son aves migratorias.</p>
+          </div>
+        </div>
+      </div>
+    
+    </div> 
+
   </div>
 </body>
 </html>
